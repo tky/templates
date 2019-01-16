@@ -1,0 +1,11 @@
+- model: sample.Task
+  pk: 1
+  fields:
+    name: "お仕事1"
+
+
+- model: sample.Task
+  pk: 2
+  fields:
+    name: "お仕事2"
+

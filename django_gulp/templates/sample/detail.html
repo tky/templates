@@ -1,1 +1,5 @@
-hello django
+<ul>
+  {% for task in tasks %}
+  <li>{{ task.id }} {{ task.name }}</li>
+  {% endfor %}
+</ul>
